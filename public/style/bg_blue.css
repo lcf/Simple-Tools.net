@@ -1,0 +1,12 @@
+html,
+.bg_color {
+    background-color:#CCCCF2;
+}
+a:hover,
+a:active {
+    background-color:#BBBBF2;
+}
+blockquote,
+code {
+    background-color:#DDDDF2;
+}

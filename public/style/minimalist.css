@@ -1,0 +1,324 @@
+/**
+ * Minimalist main CSS file
+ * @version 1.0.0
+ * @author Aaron D. Campbell http://xavisys.com/
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:georgia,serif;
+    margin-top:1em;
+}
+h1 {
+    font-size:2.5em;
+}
+h2 {
+    font-size:1.9em;
+}
+h3 {
+    font-size:1.5em;
+}
+h4 {
+    font-size:1.2em;
+}
+h5 {
+    font-size:1em;
+}
+h6 {
+    font-size:.8em;
+}
+body {
+	background-color:#FFF;
+    color:#666;
+    font:80% Verdana,Arial,sans-serif;
+    margin-top:1.2em;
+    min-width:675px;
+}
+
+p {
+    line-height:1.5em;
+    margin:1em 0;
+}
+ul,
+ol,
+dl {
+    margin-top:1em;
+}
+
+dt {
+    font-size:1.1em;
+    font-weight:bold;
+}
+dd {
+    margin:0 2em;
+}
+
+
+#page {
+    margin:.5em;
+}
+
+#header h1 {
+    font-family:Verdana,Arial,sans-serif;
+    font-size:3em;
+    font-variant:small-caps;
+    font-weight:bold;
+    margin:0 1em;
+}
+
+#header h1,
+#header h1 a,
+#header h1 a:hover,
+#header h1 a:visited {
+    background-color:#FFF;
+    text-decoration:none;
+}
+#content {
+    margin:0 2%;
+    width:70%;
+}
+#content h1,
+#content h2,
+#content h3 {
+    clear:both;
+}
+
+#content ol {
+    margin-left:2em;
+}
+#content ul {
+    margin-left:1.5em;
+}
+
+#sidebar {
+    width:22%;
+}
+#sidebar h1 {
+    font-size:1.9em;
+}
+#sidebar h2 {
+    font-size:1.5em;
+}
+#sidebar h3 {
+    font-size:1.2em;
+}
+#sidebar h4 {
+    font-size:1em;
+}
+#sidebar h5 {
+    font-size:.8em;
+}
+#sidebar h6 {
+    font-size:5em;
+}
+#sidebar,
+.info_box {
+    border:1px dotted #666;
+    padding:.5em;
+}
+.info_box {
+    float:right;
+}
+#sidebar p {
+    margin:.5em;
+}
+#sidebar ul li {
+    list-style-type:none;
+}
+#sidebar ul li li li {
+    padding-left:.8em;
+}
+#sidebar ul li a {
+    display:block;
+    padding:.2em .5em;
+}
+#sidebar label {
+    display:block;
+    float:left;
+    height:21px;
+    margin-right:10px;
+    width:70px;
+}
+#pages ul,
+#pages ol,
+#pages dl {
+    margin:0;
+}
+
+#pages li a,
+.widget_pages li a {
+    font-size:1.3em;
+    line-height:1em;
+}
+#pages li.current_page_item a {
+    font-weight:bold;
+}
+#pages li.current_page_item li a {
+    font-weight:normal;
+}
+#footer {
+    clear:both;
+    color:#999;
+    font-size:.8em;
+    padding:1em;
+    text-align:center;
+}
+#footer p {
+    margin:0;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration:none;
+}
+a:hover,
+a:active {
+    color:#000;
+}
+
+blockquote,
+code {
+    display:block;
+    font-style:oblique;
+    line-height:20px;
+    margin:0 1em;
+    padding:0 1em;
+}
+
+code {
+    white-space:pre;
+}
+.more {
+    display:block;
+    font-size:.8em;
+    text-align:right;
+}
+
+/*********
+ * Forms *
+ *********/
+fieldset {
+	color:#777;
+	margin-top:15px;
+	padding:10px;
+}
+
+.message,
+fieldset,
+input,
+button,
+fieldset textarea,
+fieldset select {
+	border:1px solid #CCC;
+}
+
+legend {
+	font-weight:bold;
+	padding:5px 10px;
+}
+
+input,
+button,
+fieldset textarea,
+fieldset select {
+	color:#777;
+	font:90% Verdana;
+	padding:4px;
+	width:99%;
+}
+
+option {
+	padding:0 10px 0 5px;
+}
+fieldset label,
+fieldset p.label {
+	color:#777;
+	text-align:right;
+	width:145px;
+}
+fieldset label {
+	float:left;
+	margin:5px 0;
+	margin-right:10px;
+}
+
+fieldset p {
+	margin:0;
+}
+fieldset div {
+	margin:5px 0;
+	position:relative;
+}
+fieldset div div {
+	margin:0;
+}
+fieldset p.label {
+	left:0;
+	position:absolute;
+}
+
+.radio {
+	margin-left:160px;
+}
+.radio label,
+.radio input {
+	background:none;
+	border:none;
+	display:inline;
+	float:none;
+	vertical-align:middle;
+	width:auto;
+}
+.radio div {
+	clear:none;
+	white-space:nowrap;
+}
+#sidebar form {
+    margin:0 0 1em 0;
+}
+
+.submit,
+#sidebar .submit {
+	text-align:right;
+}
+.submit {
+    width:595px;
+}
+#sidebar .submit {
+    width:auto;
+}
+.submit input,
+#sidebar .submit input {
+	cursor:pointer;
+	padding:0 21px;
+	text-transform:lowercase;
+	width:auto;
+}
+
+#sidebar input {
+    width:96%;
+}
+
+#sidebar label {
+    height:auto;
+    margin-bottom:0;
+    width:auto;
+}
