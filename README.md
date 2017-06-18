@@ -1,1 +1,1 @@
-http://blog.lcf.name/2011/06/simple-toolsnet.html
+An old experiment on the topic of using non-OOP, procedural/functional style PHP without static state
